@@ -54,4 +54,4 @@ You can open and run the Google Colab notebook directly in your browser:
 
 * **Stanislav Tsapenko**
 * [**↗ LinkedIn**](https://www.linkedin.com/in/stanislav-tsapenko-bb097a319)
-* [**↗ Email**](mailto:stas0608@gmail.com)
+* [**↗ Email**](mailto:stanislav.tsapenko.da@gmail.com)
