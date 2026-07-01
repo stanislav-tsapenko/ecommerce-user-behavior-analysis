@@ -37,7 +37,7 @@ Key insights include:
 
 ## How to View the Tableau Dashboard
 
-ou can view the interactive Tableau dashboard via the following link:
+You can view the interactive Tableau dashboard via the following link:
 [**↗ Comprehensive E-commerce Sales and User Behavior Analysis**](https://public.tableau.com/views/E_commerce_17498228881310/ComprehensiveE-commerceSalesandUserBehaviorAnalysis)
 
 ## How to Run the Colab Notebook
