@@ -43,7 +43,7 @@ You can view the interactive Tableau dashboard via the following link:
 ## How to Run the Colab Notebook
 
 You can open and run the Google Colab notebook directly in your browser:
-(https://colab.research.google.com/github/stanislav-tsapenko/ecommerce-user-behavior-analysis/blob/main/НАЗВА_ВАШОГО_ФАЙЛУ.ipynb)
+[**↗ Run in Google Colab**](https://colab.research.google.com/github/stanislav-tsapenko/ecommerce-user-behavior-analysis/blob/main/Comprehensive_E_commerce_Sales_and_User_Behavior_Analysis.ipynb)
 
 ## Future Steps
 
@@ -52,6 +52,6 @@ You can open and run the Google Colab notebook directly in your browser:
 
 ## Contact
 
-* Stanislav Tsapenko
-* [www.linkedin.com/in/stanislav-tsapenko-bb097a319](https://www.linkedin.com/in/stanislav-tsapenko-bb097a319)
-* [stas0608@gmail.com](mailto:stas0608@gmail.com)
+* **Stanislav Tsapenko**
+* [**↗ LinkedIn**](https://www.linkedin.com/in/stanislav-tsapenko-bb097a319)
+* [**↗ Email**](mailto:stas0608@gmail.com)
