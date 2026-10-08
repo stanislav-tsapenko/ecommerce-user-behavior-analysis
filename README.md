@@ -1,4 +1,4 @@
-# Comprehensive E-commerce Sales and User Behavior Analysis
+# E-commerce Sales and User Behavior Analysis
 
 ## Project Overview
 
