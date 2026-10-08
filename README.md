@@ -9,6 +9,7 @@ The goal of this project is to provide actionable insights that can assist in ma
 
 The data for this analysis was obtained from 'data-analytics-mate' via an SQL query.
 It includes key metrics such as: `order_date`, `session_date`, `price`, `account_id`, `is_verified`, `is_unsubscribed`, `device`, `traffic_source`, `product_category`, `country`, `continent`, `operating_system`, etc.
+The dataset covers 349,545 sessions and 27,946 accounts from 2020-11-01 to 2021-01-31. The source database (`data-analytics-mate`) is not public, so the results are saved in the notebook outputs.
 
 ## Tools and Technologies
 
@@ -18,9 +19,9 @@ It includes key metrics such as: `order_date`, `session_date`, `price`, `account
 
 ## Repository Structure
 
-* `Comprehensive_E-commerce_Sales_and_User_Behavior_Analysis.ipynb`: The main Google Colab notebook containing all the code for data preparation, analysis, and initial visualizations.
-* `Comprehensive E-commerce Sales and User Behavior Analysis.twbx`: Tableau Packaged Workbook, which includes an interactive dashboard with all visualizations.
-
+* `Comprehensive_E_commerce_Sales_and_User_Behavior_Analysis.ipynb`: Google Colab notebook with data preparation, cleaning, statistical analysis and initial visualizations.
+* Tableau dashboard: see the link in the section below (the workbook is published on Tableau Public).
+  
 ## Analysis and Insights
 
 This project explores:
@@ -30,10 +31,12 @@ This project explores:
 * **Statistical Analysis of Relationships:** Investigation into the correlations and connections between different variables.
 * **Statistical Analysis of Differences Between Groups:** Comparison of metrics across various user segments or categories to identify significant variations.
 
-Key insights include:
-* A significant portion of revenue originates from users in the United States and the Americas.
-* The percentage of verified users is significantly higher than that of unverified users.
-* The analysis revealed statistically significant positive correlations across all examined pairs.
+Key insights:
+* **Revenue:** $31.97M from 33,538 orders (average order value $953). The United States alone brings $13.94M (about 44% of total revenue), followed by India ($2.81M) and Canada ($2.44M).
+* **Products:** the top 3 categories (Sofas & Armchairs $8.39M, Chairs $6.15M, Beds $4.92M) generate about 61% of revenue.
+* **Devices and channels:** desktop accounts for 59% of revenue; Organic Search (35.8%) and Organic Traffic (34.2%) are the main acquisition sources.
+* **Relationships:** daily revenue correlates strongly with session count (Spearman ρ = 0.90); all examined pairs of segments (continents, channels, devices, categories) show significant positive correlations.
+* **Group differences:** verified users generate higher daily revenue than unsubscribed users (Mann–Whitney U, p < 0.0001); traffic channels differ significantly in sessions (Kruskal–Wallis, p < 0.00001); revenue per order does not differ by day of the week (p = 0.12).
 
 ## How to View the Tableau Dashboard
 
