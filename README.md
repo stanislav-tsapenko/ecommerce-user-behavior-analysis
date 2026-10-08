@@ -34,10 +34,23 @@ This project explores:
 Key insights:
 * **Revenue:** $31.97M from 33,538 orders (average order value $953). The United States alone brings $13.94M (about 44% of total revenue), followed by India ($2.81M) and Canada ($2.44M).
 * **Products:** the top 3 categories (Sofas & Armchairs $8.39M, Chairs $6.15M, Beds $4.92M) generate about 61% of revenue.
-* **Devices and channels:** desktop accounts for 59% of revenue; Organic Search (35.8%) and Organic Traffic (34.2%) are the main acquisition sources.
-* **Relationships:** daily revenue correlates strongly with session count (Spearman ρ = 0.90); all examined pairs of segments (continents, channels, devices, categories) show significant positive correlations.
-* **Group differences:** verified users generate higher daily revenue than unsubscribed users (Mann–Whitney U, p < 0.0001); traffic channels differ significantly in sessions (Kruskal–Wallis, p < 0.00001); revenue per order does not differ by day of the week (p = 0.12).
+* **Devices and channels:** desktop accounts for 59% of revenue; Organic Search is the largest marketing channel (35.8% of revenue).
+* **Relationships:** daily revenue correlates strongly with session count (Spearman ρ = 0.90). Revenue across continents, channels, devices and categories also moves together (all pairs significantly positively correlated), which is expected because all segments follow the same overall demand and seasonality.
+* **Group differences:** daily revenue of verified users is higher than that of unsubscribed users (Mann–Whitney U, p < 0.0001); traffic channels differ significantly in daily sessions (Kruskal–Wallis, p < 0.00001); revenue per order does not differ by day of the week (p = 0.12). These results show association, not causation.
 
+## Business Recommendations
+
+Based on the results above (hypotheses to be tested, not proven effects):
+* **Focus on the US market:** it brings about 44% of revenue, so marketing budget and delivery/payment experience there have the biggest impact.
+* **Prioritise the leading categories:** Sofas & Armchairs, Chairs and Beds generate about 61% of revenue; they are the first candidates for promotion and stock planning.
+* **Do not neglect desktop:** it accounts for 59% of revenue, so checkout improvements on desktop should be tested first.
+* **Review channel mix:** Organic Search is the largest channel (35.8% of revenue); it is worth checking how dependent the business is on it and how Paid Search and Direct compare in return.
+## Limitations
+
+* The data covers only three months (November 2020 – January 2021), which includes holiday-season demand, so seasonal conclusions should be treated with caution.
+* Daily revenue correlations between segments are partly driven by common overall demand and do not show cause and effect.
+* Groups of users (verified/unsubscribed, registered/unregistered) are compared by total daily revenue; because the groups differ in size, a per-user comparison would be more precise.
+* The source database (`data-analytics-mate`) is not public, so the analysis can be reproduced only from the saved notebook outputs.
 ## How to View the Tableau Dashboard
 
 You can view the interactive Tableau dashboard via the following link:
